@@ -85,4 +85,4 @@ async def on_member_join(member):
   mensagem = await bemvindo.send(f"{member.mention}", embed= embed)
   
 
-client.run('MTIwNjQyNDIwNjUwNjQ1OTE3Ng.G9YjjT.e6LUhneDuqTlUNyfF6_vPl8Yecc-wsCztyEHt0')
+client.run('token')
