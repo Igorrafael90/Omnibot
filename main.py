@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
+from config import token
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix = ">", case_insensitive = True, intents=intents)
@@ -85,4 +86,4 @@ async def on_member_join(member):
   mensagem = await bemvindo.send(f"{member.mention}", embed= embed)
   
 
-client.run('token')
+client.run(token)
